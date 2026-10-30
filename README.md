@@ -1,3 +1,3 @@
 ### 27-20-2026 - Linux env in Docker and tools setup {Docker devcontainer, k8s-pods, k9s}
 ### 29-10-2026 - uv workspace created 
-### 30-10-2026 - Install Kafka in the cluster
+### 30-10-2026 - Installed Kafka and Kafka-ui into the cluster

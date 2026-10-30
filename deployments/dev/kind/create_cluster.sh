@@ -18,12 +18,12 @@ echo "Creating the cluster..."
 export KUBECONFIG=$HOME/.kube/config-rwml-68f3
 KIND_EXPERIMENTAL_DOCKER_NETWORK=rwml-68f3-network kind create cluster --config ./kind-with-portmapping.yaml
 
-# # 5. Install Kafka
-# echo "Installing Kafka..."
-# chmod +x ./install_kafka.sh
-# ./install_kafka.sh
+# 5. Install Kafka
+echo "Installing Kafka..."
+chmod +x ./install_kafka.sh
+./install_kafka.sh
 
-# # 6. Install Kafka UI
-# echo "Installing Kafka UI..."
-# chmod +x ./install_kafka_ui.sh
-# ./install_kafka_ui.sh
+# 6. Install Kafka UI
+echo "Installing Kafka UI..."
+chmod +x ./install_kafka_ui.sh
+./install_kafka_ui.sh
